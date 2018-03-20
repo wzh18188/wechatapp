@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container_2">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+
+<view>
+  <button type="button_2" bindtap="clickButton" class="button_2 button" hover-class='on_press_2'>个人资料</button>
+  <button type="button_1" bindtap="clickButton" class="button_1 button" hover-class='on_press_1' bindtap="about">关 于</button>
+</view>
+
+<view class='ver'>
+  <text>Verison:Alpha 1.0.8</text>
+</view>

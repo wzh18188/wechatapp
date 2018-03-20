@@ -1,0 +1,4 @@
+<!--pages/mn/mn.wxml-->
+<view class="basic">
+<view class="color_green">开发中...</view>
+</view>

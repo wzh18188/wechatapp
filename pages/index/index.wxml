@@ -1,0 +1,8 @@
+<!--index.wxml-->
+
+<view class="container">
+    <text>首页</text>
+  <view class="budding">
+    <text>{{motto}}</text>
+  </view>
+</view>

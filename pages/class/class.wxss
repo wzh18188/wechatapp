@@ -1,0 +1,13 @@
+/* pages/class/class.wxss */
+.basic {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+.color_green {
+  color: #4caf50;
+  font-size: 25px;
+}

@@ -1,0 +1,63 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #435a63;
+}
+
+.ver {
+  color: #515151;
+  font-size: 10px;
+  text-align: center;
+}
+
+.container_2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50rpx 0;
+  box-sizing: border-box;
+} 
+
+.button_1 {
+  background-color:#F5F5F5;
+  color: #515151;
+}
+
+.button_2 {
+  background-color: #e74c3c;
+  color: #F5F5F5;
+}
+
+.on_press_1 {
+  color: #FFFFFF;
+  background-color: #4caf50;
+}
+
+.on_press_2 {
+  color: #dedede;
+  background-color: #b73127;
+}
+
+.button {
+  width:250px;  
+  border-radius: 3px;  
+  margin:20px auto;  
+  padding-top:2px;  
+  font-size:14px;
+  overflow:hidden;  
+  height:40px;  
+}
